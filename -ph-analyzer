@@ -1,0 +1,12 @@
+ph=float(input("enter pH value:"))
+
+if(ph < 7):
+    print("acid")
+    print("use sodium carbonate")
+
+elif(ph > 7):
+    print("base")
+    print("use sodium")
+
+else:
+    print("water is neutral")
